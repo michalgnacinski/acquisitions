@@ -23,3 +23,7 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2026:08:56:21 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.54.0\"","service":"acquisitions-api"}
 {"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2026:08:56:33 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.54.0\"","service":"acquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.54.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2026:09:31:31 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.54.0\"","service":"acquisitions-api"}
+{"ip":"::ffff:127.0.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.54.0"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Jun/2026:09:31:58 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.54.0\"","service":"acquisitions-api"}
